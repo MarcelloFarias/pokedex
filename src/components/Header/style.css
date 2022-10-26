@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 2rem;
+  height: 30vh;
+  padding: 1rem;
+}
+
+header img {
+  max-width: 200px;
+}
+
+header input[type="text"] {
+  padding: 0.4rem;
+  border: solid 1px #3b4cca;
+  color: #ffde00;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+}
